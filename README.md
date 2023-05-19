@@ -19,8 +19,6 @@ This is an interactive command-line application built with Node and Express that
 
 ## Built-With
 
-This app runs in the terminal and features dynamically updated code powered by Node.js.
-
 <p>
   <img src="https://img.shields.io/badge/-Dotenv-ff69b4" />
   <img src="https://img.shields.io/badge/-ORM-brightgreen" />
@@ -53,9 +51,9 @@ The user will first need to download the Node.js application onto their computer
 
 ## Usage
 
-In order to run this application, the user will need to type `mysql -u root -p` into the terminal to launch Sequelize. From there, the user will select the 'e-commerce' database by typing `SOURCE db/schema.sql;` and then `exit`. Then a user can enter `npm run seed` to seed the database, and finally `npm run start` to start the server. 
+In order to run this application, the user will need to type `mysql -u root -p` into the terminal to launch Sequelize. From there, the user will select the 'e-commerce' database by typing `SOURCE db/schema.sql;` and then `exit`. A user can then enter `npm run seed` to seed the database, and finally `npm run start` to start the server. 
 
-Once in Insomnia, a user can make get requests for all products, categories or tags, as well as get by Id, post(create), put(update), and delete requests.
+Once in Insomnia, a user can make get requests for all products, categories or tags, as well as get by Id, post(create), put(update) by Id, and delete by Id requests.
 ## License
         
     MIT
